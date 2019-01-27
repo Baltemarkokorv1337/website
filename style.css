@@ -1,0 +1,110 @@
+#wrapper{
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+}
+
+body {  background-image: linear-gradient(#bf1b01, #911501);
+}
+header{
+    line-height: 120%;
+    text-align:center;
+    width:98%;
+    margin:0 auto 0 auto;
+    height:60px;
+    background-color:	#576070;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color:black;
+    font-family: 'Slabo 27px', serif;
+    text-decoration: underline;
+    border-bottom-width: medium;
+    border-color: black;
+    border-top-style:outset;
+    border-left-style:outset;
+    border-right-style:outset;
+}
+nav{
+  font-size:27px;
+  margin:0 auto 0 auto;
+  border-left-style:outset;
+  border-right-style:outset;
+  border-color:black;
+  border-top-style:outset;
+  overflow:hidden;
+  width:98%;
+  height:30px;
+  background-color:#576070;
+  text-align:center;
+}
+#mainwrapper{
+  display:flex;
+  width:98.3%;
+  margin: 0 auto;
+}
+main{
+  width:100%;
+  height:500px;
+  background-color:#c9ced6;
+  border-top-style:outset;
+  border-right-style:outset;
+  border-color:black;
+}
+  #maintext{
+
+  margin-top:1%;
+  margin-left:5%;
+  margin-right: 25%;
+  text align:center;
+  font-size:17px;
+  }
+aside{
+margin:0 auto 0 auto;
+  width:18%;
+  height:500px;
+  background-color:#576070;
+  font-size:20px;
+  border-top-right-radius: 0px;
+  border-color: black;
+  border-top-style:outset;
+  border-left-style:outset;
+  border-right-style:outset;
+  text-align:center;
+
+}
+footer{
+  width:98%;
+  height:100px;
+  background-color:#576070;
+  margin:0 auto 0 auto;
+    border-top-style:outset;
+    border-left-style:outset;
+    border-right-style:outset;
+    border-bottom-style:outset;
+    border-color:black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+
+}
+
+a{
+
+  text-decoration: underline;
+  font-size: 30px;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+/* visited link */
+a:visited {
+    color: black;
+}
+/* mouse over link */
+a:hover {
+    color: black;
+}
+/* selected link */
+a:active {
+    color: black
+}
